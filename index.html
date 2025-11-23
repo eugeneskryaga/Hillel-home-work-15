@@ -14,132 +14,135 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="bg-indigo-50">
+    <header class="bg-indigo-100">
       <div
-        class="xl:w-7xl md:w-3xl mx-auto p-4 bg-indigo-100 flex justify-between"
+        class="w-[340px] md:w-[768px] xl:w-7xl mx-auto md:px-8 flex md:justify-between items-center gap-2 font-medium"
       >
         <img
           src="./img/logo.svg"
           alt="logo"
+          class="w-[110px] h-[60px] md:w-[180px] md:h-[24px]"
         />
         <nav>
-          <ul class="flex gap-24 md:gap-12">
-            <li class="text-xl"><a href="#">HOME</a></li>
-            <li class="text-xl"><a href="#">ABOUT</a></li>
-            <li><button class="bg-indigo-400">RESERVE YOUR SPOT</button></li>
+          <ul class="flex items-center gap-3 md:gap-8 xl:gap-20">
+            <li class="text-xs md:text-base py-4"><a href="#">HOME</a></li>
+            <li class="text-xs md:text-base py-4"><a href="#">ABOUT</a></li>
+            <li class="text-xs md:text-base">
+              <button class="bg-indigo-400">RESERVE YOUR SPOT</button>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main class="bg-indigo-50">
-      <section class="xl:w-7xl md:w-3xl mx-auto">
-        <div>
-          <div
-            class="xl:p-8 md:p-4 bg-amber-50 text-center border-t-2 border-b-2"
+    <main>
+      <section class="bg-indigo-100">
+        <div class="py-4 border-y-1 bg-amber-50">
+          <h1
+            class="w-[340px] md:w-[768px] xl:w-7xl xl:text-5xl mx-auto text-center text-3xl font-extrabold"
           >
-            <h1 class="text-7xl font-black">
-              TRAIN HARD. <span class="text-indigo-400">LIVE BETTER</span>
-            </h1>
-          </div>
-          <div class="flex">
+            TRAIN HARD. <span class="text-indigo-400">LIVE BETTER</span>
+          </h1>
+        </div>
+        <div class="w-[340px] md:w-[768px] xl:w-7xl mx-auto">
+          <div class="flex-column md:flex justify-center">
             <img
               src="./img/hero_main.png"
               alt="training"
-              class="md:w-[532px] md:h-[300px] xl:w-[1280px] xl:h-[480px]"
+              class="w-[340px] h-[224px] md:w-[532px] md:h-[300px] xl:w-[854px] xl:h-[480px]"
             />
-            <div
-              class="xl:p-8 bg-indigo-100 flex flex-col justify-between md:p-4"
-            >
-              <strong class="xl:text-5xl md:text-3xl">FOR THE COMMITED</strong>
-              <div>
-                <p class="xl:mb-6 xl:text-lg md:text-base md:mb-2">
-                  Train like an athlete with top-tier equipment and expert
-                  programming. Whether you're building muscle or breaking PRs,
-                  we help you push past limits.
-                </p>
-                <button class="bg-indigo-400">ABOUT US</button>
-              </div>
+            <div class="p-6 md:p-4 md:py-1 xl:p-8 xl:text-xl">
+              <strong class="text-3xl font-extrabold">FOR THE COMMITED</strong>
+              <p class="my-3 xl:my-24">
+                Train like an athlete with top-tier equipment and expert
+                programming. Whether you're building muscle or breaking PRs, we
+                help you push past limits.
+              </p>
+              <button class="bg-indigo-400">ABOUT US</button>
             </div>
           </div>
-          <div class="flex">
+          <div class="flex-column md:flex">
+            <img
+              src="./img/hero.png"
+              alt="training"
+              class="w-[340px] h-[420px] md:w-[266px] md:h-[266px] xl:w-[426px] xl:h-[480px] order-2"
+            />
             <div
-              class="xl:p-8 bg-indigo-100 flex flex-col justify-between border-r-1 md:p-4"
+              class="p-6 md:p-4 md:py-1 xl:p-8 border-b-1 md:border-b-0 md:border-r-1 xl:text-xl"
             >
-              <strong class="xl:text-5xl md:text-3xl">GUIDED BY EXPERTS</strong>
-              <p class="xl:text-lg md:text-base md:mb-2">
+              <strong class="text-3xl font-extrabold">GUIDED BY EXPERTS</strong>
+              <p class="mt-6 xl:mt-52">
                 We believe in creating a positive environment where you can
                 thrive. We're here to help you achieve your goals and unlock
                 your full potential.
               </p>
             </div>
-            <div
-              class="xl:p-8 bg-indigo-100 flex flex-col justify-between md:p-4"
-            >
-              <strong class="xl:text-5xl md:text-3xl">DYNAMIC OPEN GYM</strong>
-              <p class="xl:text-lg md:text-base md:mb-2">
+            <div class="p-6 md:p-4 md:py-1 xl:p-8 xl:text-xl">
+              <strong class="text-3xl font-extrabold">DYNAMIC OPEN GYM</strong>
+              <p class="mt-4 xl:mt-52">
                 Our facility is the optimal environment for strength training
                 and performance, fully equipped with top-of-the-line tools,
                 ample training areas, and a focus on functional movement.
               </p>
             </div>
-            <img
-              src="./img/hero.png"
-              alt="training"
-              class="md:w-[566px] md:h-[266px] xl:w-[426px] xl:h-[480px]"
-            />
           </div>
         </div>
       </section>
-      <section class="xl:w-7xl md:w-3xl mx-auto">
-        <div
-          class="xl:p-7 md:p-4 bg-amber-50 text-center border-t-2 border-b-2"
-        >
-          <h2 class="text-7xl font-black">
+      <section class="bg-indigo-100">
+        <div class="py-4 border-y-1 bg-amber-50">
+          <h2
+            class="w-[340px] md:w-[768px] xl:w-7xl xl:text-5xl mx-auto text-center text-3xl font-extrabold"
+          >
             JOIN THE <span class="text-indigo-400">COMMUNITY</span>
           </h2>
         </div>
-        <div class="flex">
-          <div class="flex-column">
-            <div class="xl:p-8 bg-indigo-100 border-b-1 md:p-3">
-              <strong class="font-extrabold text-4xl"
-                >DISCOVER YOUR POTENTIAL</strong
-              >
-            </div>
-            <div class="xl:p-8 bg-indigo-100 border-b-1 md:p-3">
-              <strong class="text-xl">EXPERT COACHING</strong>
-              <p class="xl:text-md md:text-base md:mb-2">
-                Workouts that deliver tangible, measurable results.
-              </p>
-            </div>
-            <div class="xl:p-8 bg-indigo-100 border-b-1 md:p-3">
-              <strong class="text-xl">RESULTS-DRIVEN PROGRAMS</strong>
-              <p class="xl:text-md md:text-base md:mb-2">
-                A community that pushes you to be your best.
-              </p>
-            </div>
-            <div class="xl:p-8 bg-indigo-100 border-b-1 md:p-3">
-              <strong class="text-xl">A SUPPORTIVE TRIBE</strong>
-              <p class="xl:text-md md:text-base md:mb-2">
-                A community that pushes you to be your best.
-              </p>
-            </div>
-            <div class="xl:p-4 bg-indigo-100 text-center md:p-3">
-              <button class="bg-indigo-400">VIEW CLASSES</button>
-            </div>
-          </div>
+        <div
+          class="w-[340px] md:w-[768px] xl:w-7xl mx-auto flex-column md:flex"
+        >
           <img
             src="./img/join.png"
             alt="training"
-            class="md:w-[400px] md:h-[450px] xl:w-[854px] xl:h-[594px]"
+            class="w-[374px] h-[224px] md:w-[400px] md:h-[466px] xl:w-[854px] xl:h-[602px] md:order-last"
           />
+          <div>
+            <div class="p-3 md:p-4 md:py-2 xl:p-4 xl:text-xl border-b-1">
+              <strong class="text-4xl font-extrabold"
+                >DISCOVER YOUR POTENTIAL</strong
+              >
+            </div>
+            <div class="p-3 md:p-4 md:py-2 xl:p-4 xl:text-xl border-b-1">
+              <strong class="text-2xl font-extrabold">EXPERT COACHING</strong>
+              <p class="mt-3 xl:mt-4">
+                Workouts that deliver tangible, measurable results.
+              </p>
+            </div>
+            <div class="p-3 md:p-4 md:py-2 xl:p-4 xl:text-xl border-b-1">
+              <strong class="text-2xl font-extrabold"
+                >RESULTS-DRIVEN PROGRAMS</strong
+              >
+              <p class="mt-3 xl:mt-4">
+                A community that pushes you to be your best.
+              </p>
+            </div>
+            <div class="p-3 md:p-4 md:py-2 xl:p-4 xl:text-xl border-b-1">
+              <strong class="text-2xl font-extrabold"
+                >A SUPPORTIVE TRIBE</strong
+              >
+              <p class="mt-3 xl:mt-4">
+                A community that pushes you to be your best.
+              </p>
+            </div>
+            <div class="p-3 md:p-4 md:py-2 xl:p-4 xl:text-xl text-center">
+              <button class="bg-indigo-400">VIEW CLASSES</button>
+            </div>
+          </div>
         </div>
       </section>
-      <section
-        class="p-30 xl:w-7xl md:w-3xl mx-auto bg-indigo-400 text-center md:p-10"
-      >
-        <div class="flex-column">
-          <p class="mb-4 text-lg">WHAT WE BELIEVE IN</p>
-          <p class="mb-8 text-5xl font-extrabold">
+      <section class="bg-indigo-400">
+        <div
+          class="w-[340px] md:w-[768px] xl:w-7xl mx-auto py-10 text-center flex-column"
+        >
+          <p class="text-xl">WHAT WE BELIEVE IN</p>
+          <p class="text-4xl font-extrabold my-6">
             JOIN THE PRIMAL TRIBE TODAY!
           </p>
           <button class="bg-sky-50">RESERVE YOUR SPOT</button>
